@@ -1,18 +1,18 @@
 {
-    "name": "nanokit",
-    "version": "0.0.1",
-    "private": false,
-    "dependencies": {
-      "prop-types": "^15.5.10"
-    },
-    "peerDependencies": {
-      "react": "16.0.0-alpha.12",
-      "react-native": "0.48.3"
-    },
-    "description": "React Native UI Component kit",
-    "main": "index.js",
-    "repository": "git@github.com:tiaanduplessis/nanokit.git",
-    "author": "Tiaan du Plessis",
-    "license": "MIT"
-  }
-  
+  "name": "nanokit",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "get-nested-prop": "^1.0.0",
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.3"
+  },
+  "description": "React Native UI Component kit",
+  "main": "index.js",
+  "repository": "git@github.com:tiaanduplessis/nanokit.git",
+  "author": "Tiaan du Plessis",
+  "license": "MIT"
+}

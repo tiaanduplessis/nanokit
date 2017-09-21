@@ -8,28 +8,22 @@ import {
   Platform
 } from 'react-native'
 import PropTypes from 'prop-types'
+import get from 'get-nested-prop'
 
 const isAndroid = Platform.OS === 'android'
 
 const Button = (
   { disabled, style, textStyle, disabledStyle, disabledTextStyle, text, background, ...otherProps },
-  { theme }
+  { theme = {} }
 ) => {
   const themeStyles = StyleSheet.create({
     button: {
-      height: theme && theme.spacing && theme.spacing.buttonHeight ? theme.spacing.buttonHeight : 56
+      height: get(theme, 'spacing.buttonHeight', 56)
     },
     text: {
-      color:
-        theme && theme.palette && theme.palette.primaryTextColor
-          ? theme.palette.primaryTextColor
-          : '#212121',
-      fontFamily:
-        theme && theme.typography && theme.typography.fontFamily
-          ? theme.typography.fontFamily
-          : 'System',
-      fontSize:
-        theme && theme.typography && theme.typography.baseSize ? theme.typography.baseSize : 18
+      color: get(theme, 'palette.primaryTextColor', '#212121'),
+      fontFamily: get(theme, 'typography.fontFamily', 'System'),
+      fontSize: get(theme, 'typography.baseSize', 18)
     }
   })
 
