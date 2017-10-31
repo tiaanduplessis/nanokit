@@ -1,0 +1,38 @@
+{
+    "name": "nanokit",
+    "version": "1.0.0",
+    "description": "Modular React Native Component library",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/nanokit",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/nanokit",
+    "bugs": "https://github.com/tiaanduplessis/nanokit",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "npm run format",
+        "format": "prettier-standard index.js",
+        "start": "npm run test",
+        "precommit": "npm test"
+    },
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "prettier-standard": "^7.0.2"
+    },
+    "dependencies": {
+        "nanokit-button": "^1.0.0",
+        "nanokit-card": "^1.0.0",
+        "nanokit-container": "^1.0.0",
+        "nanokit-spinner-overlay": "^1.0.0",
+        "nanokit-statusbar": "^1.0.0"
+    }
+}
