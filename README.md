@@ -87,7 +87,7 @@ import { Container, Button } from 'nanokit'
 // And use
 ```
 
-See the respective [sub-modules](modules) for usage instructions.
+See the respective [sub-modules](#modules) for usage instructions.
 
 ## Contributing
 
