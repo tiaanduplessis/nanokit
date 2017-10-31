@@ -1,5 +1,5 @@
-<div>
-  <img src="logo.png" alt="nanokit">
+<div align="center">
+  <img width="80%" src="logo.png" alt="nanokit">
 </div>
 <div align="center">
   <strong>Modular React Native Component library</strong>
