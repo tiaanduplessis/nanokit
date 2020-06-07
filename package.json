@@ -32,7 +32,7 @@
         "nanokit-button": "^1.0.0",
         "nanokit-card": "^1.0.0",
         "nanokit-container": "^1.0.0",
-        "nanokit-spinner-overlay": "^1.0.0",
+        "nanokit-spinner-overlay": "^1.0.1",
         "nanokit-statusbar": "^1.0.0"
     }
 }
