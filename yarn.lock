@@ -928,9 +928,10 @@ nanokit-container@^1.0.0:
     prop-types "^15.6.0"
     react-docgen "^2.19.0"
 
-nanokit-spinner-overlay@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/nanokit-spinner-overlay/-/nanokit-spinner-overlay-1.0.0.tgz#092cc1bf302820523836c8d21421ec55c0ded4d3"
+nanokit-spinner-overlay@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/nanokit-spinner-overlay/-/nanokit-spinner-overlay-1.0.1.tgz#3a63b43ec9ee44ad4a71a4cf4b910aee52e4635d"
+  integrity sha512-Hy2Ie0wbouh7Tk1Q2gFDn511efzTkzSThXXDe9aOqhXYDk2bjtov4M7kz5DOlG9D68J9yw24z2HcZ+5nYQBacw==
   dependencies:
     prop-types "^15.6.0"
 
